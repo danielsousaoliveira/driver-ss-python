@@ -115,14 +115,14 @@ def alert_function():
 
             percentage = (counter / total_elements)
         
-        if percentage > 0.2:
-                
-            print("ALERT - USER DROWSY OR DISTRACTED")
-            alert_flag = True
-            ping_band(device)
+            if percentage > 0.2:
+                    
+                print("ALERT - USER DROWSY OR DISTRACTED")
+                alert_flag = True
+                ping_band(device)
 
-        else:
-            alert_flag = False
+            else:
+                alert_flag = False
 
 
 def band_funtion():

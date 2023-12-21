@@ -3,3 +3,7 @@ dbus-python
 gatt
 matplotlib
 numpy
+opencv-python
+mediapipe
+skicit-learn
+tensorflow
