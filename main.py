@@ -117,7 +117,7 @@ def alert_function():
         
             if percentage > 0.2:
                     
-                print("ALERT - USER DROWSY OR DISTRACTED")
+                print("ALERT - User Drowsy or Distracted")
                 alert_flag = True
                 ping_band(device)
 
